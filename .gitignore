@@ -1,0 +1,12 @@
+# build output (prebuilt synthesised packs live in packs/)
+dist/
+build/
+
+# bring-your-own samples: never commit audio you don't own
+samples/*
+!samples/README.md
+
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
